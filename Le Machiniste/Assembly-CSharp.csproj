@@ -1,0 +1,1459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{C4FD372A-7407-A3A1-E463-5D0A955A1AD6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\Bin\Debug\</OutputPath>
+    <DefineConstants>UNITY_2020_3_19;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;UNITY_POST_PROCESSING_STACK_V2;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Package</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>2.0.14</UnityProjectGeneratorVersion>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
+    <UnityVersion>2020.3.19f1</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Scripts\Tapis Roulant\SnatchGrill.cs" />
+    <Compile Include="Assets\FirstGearGames\Utilities\Structures\RangeFloat.cs" />
+    <Compile Include="Assets\FirstGearGames\SmoothCameraShaker\Demo\Scripts\Resettable.cs" />
+    <Compile Include="Assets\FirstGearGames\SmoothCameraShaker\Scripts\InvertibleAxes.cs" />
+    <Compile Include="Assets\Scripts\Actor\SeeField.cs" />
+    <Compile Include="Assets\FirstGearGames\Utilities\Enums.cs" />
+    <Compile Include="Assets\Scripts\MenuManager.cs" />
+    <Compile Include="Assets\Scripts\Tapis Roulant\SpawnerSnatchGrille.cs" />
+    <Compile Include="Assets\Scripts\Narrative Design\EvenementDialogueManageur.cs" />
+    <Compile Include="Assets\Scripts\Actor\GroundCheck.cs" />
+    <Compile Include="Assets\FirstGearGames\SmoothCameraShaker\Scripts\Shakables\ShakableTransform.cs" />
+    <Compile Include="Assets\Scripts\Narrative Design\Trois_DicoDialogue.cs" />
+    <Compile Include="Assets\Scripts\QuestGiver.cs" />
+    <Compile Include="Assets\FirstGearGames\SmoothCameraShaker\Scripts\ShakeData.cs" />
+    <Compile Include="Assets\Scripts\TargetManager.cs" />
+    <Compile Include="Assets\FirstGearGames\Utilities\DDOL.cs" />
+    <Compile Include="Assets\dropOnFloor.cs" />
+    <Compile Include="Assets\Scripts\Narrative Design\Deux_DicoDialogue.cs" />
+    <Compile Include="Assets\Scripts\Tapis Roulant\canDrop.cs" />
+    <Compile Include="Assets\FirstGearGames\SmoothCameraShaker\Scripts\Shakables\ShakableRigidbody.cs" />
+    <Compile Include="Assets\FirstGearGames\SmoothCameraShaker\Demo\Scripts\CanvasButtonActions.cs" />
+    <Compile Include="Assets\Scripts\Narrative Design\Six_DicoDialogue.cs" />
+    <Compile Include="Assets\Scripts\Narrative Design\Cinq_DicoDialogue.cs" />
+    <Compile Include="Assets\FirstGearGames\Utilities\Vectors.cs" />
+    <Compile Include="Assets\Scripts\Chest.cs" />
+    <Compile Include="Assets\FirstGearGames\SmoothCameraShaker\Scripts\Shakers\CameraShaker.cs" />
+    <Compile Include="Assets\FirstGearGames\SmoothCameraShaker\Demo\Scripts\Box.cs" />
+    <Compile Include="Assets\Scripts\Narrative Design\Quatre_DicoDialogue.cs" />
+    <Compile Include="Assets\Scripts\Narrative Design\Un_DicoDialogue.cs" />
+    <Compile Include="Assets\Scripts\Narrative Design\DialogueManageur.cs" />
+    <Compile Include="Assets\FirstGearGames\SmoothCameraShaker\Demo\Scripts\PerfMonitor.cs" />
+    <Compile Include="Assets\FirstGearGames\Utilities\Arrays.cs" />
+    <Compile Include="Assets\Scripts\Narrative Design\ProgressionManageur.cs" />
+    <Compile Include="Assets\Scripts\GraphicOptions.cs" />
+    <Compile Include="Assets\FirstGearGames\Utilities\Ints.cs" />
+    <Compile Include="Assets\Scripts\IncomfortManager.cs" />
+    <Compile Include="Assets\FirstGearGames\Utilities\Transforms.cs" />
+    <Compile Include="Assets\FirstGearGames\SmoothCameraShaker\Scripts\Shakables\ShakableBase.cs" />
+    <Compile Include="Assets\Scripts\PullRope.cs" />
+    <Compile Include="Assets\FirstGearGames\SmoothCameraShaker\Scripts\Shakables\ShakableRigidbody2D.cs" />
+    <Compile Include="Assets\Scripts\QuestManager.cs" />
+    <Compile Include="Assets\Scripts\Actor\InteractibleDetector.cs" />
+    <Compile Include="Assets\Scripts\EnnemyGroundcheck.cs" />
+    <Compile Include="Assets\FirstGearGames\SmoothCameraShaker\Demo\Scripts\Rock.cs" />
+    <Compile Include="Assets\FirstGearGames\SmoothCameraShaker\Scripts\ShakerInstance.cs" />
+    <Compile Include="Assets\FirstGearGames\SmoothCameraShaker\Scripts\Shakables\ShakableTransform2D.cs" />
+    <Compile Include="Assets\Scripts\Tapis Roulant\DestroyFallingObjects.cs" />
+    <Compile Include="Assets\Scripts\Tapis Roulant\ConveyorBelt.cs" />
+    <Compile Include="Assets\Scripts\Actor\ControlActor.cs" />
+    <Compile Include="Assets\FirstGearGames\SmoothCameraShaker\Scripts\CameraShakerHandler.cs" />
+    <Compile Include="Assets\Scripts\Ennemy.cs" />
+    <Compile Include="Assets\FirstGearGames\SmoothCameraShaker\Scripts\Shakables\ShakableCanvas.cs" />
+    <Compile Include="Assets\Scripts\Narrative Design\SansTriggerDialogue.cs" />
+    <Compile Include="Assets\Scripts\FlagSpawn.cs" />
+    <Compile Include="Assets\FirstGearGames\SmoothCameraShaker\Scripts\EventArgs.cs" />
+    <Compile Include="Assets\FirstGearGames\Utilities\Floats.cs" />
+    <Compile Include="Assets\Scripts\Tapis Roulant\BlockFreeze.cs" />
+    <Compile Include="Assets\Scripts\Actor\BlockDetector.cs" />
+    <Compile Include="Assets\Scripts\Tapis Roulant\ConveyorEnd.cs" />
+    <Compile Include="Assets\FirstGearGames\Utilities\EditorRuntime\BitMaskAttribute.cs" />
+    <Compile Include="Assets\FirstGearGames\SmoothCameraShaker\Scripts\Shakers\ObjectShaker.cs" />
+    <Compile Include="Assets\Scripts\Cible.cs" />
+    <Compile Include="Assets\Scripts\Actor\KillEnnemy.cs" />
+    <Compile Include="Assets\FirstGearGames\SmoothCameraShaker\Scripts\ObjectShakerHandler.cs" />
+    <Compile Include="Assets\Scripts\Tapis Roulant\DragDrop.cs" />
+    <Compile Include="Assets\Scripts\Narrative Design\Dialogue.cs" />
+    <Compile Include="Assets\FirstGearGames\Utilities\Structures\RangeInt.cs" />
+    <Compile Include="Assets\FirstGearGames\Utilities\FrameRateCalculator.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{0a2f4c94-a23b-49c4-b5f3-09809393d13e}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{0bfe1f9d-d5f2-4d70-94a5-72cc2151f297}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{d9f1ef9e-5e49-49c5-85c9-cb057b0eec85}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{54e34156-37ae-4451-a4a9-63fb4ded187b}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{173d5d1a-dd4d-4f90-aaaa-a49bd63d45c3}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{6e102a91-4076-4a6d-a389-24b5f7332aec}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{0f92e8c8-8cd5-48cb-919f-88a685eb01c5}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{e3f8e66e-a5f5-4ca8-86df-e36a71494201}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{c64dbe90-4eb2-4527-a84a-5244f60bf0e0}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{79319c07-a3aa-4194-be42-ccb90902cf5c}.xml" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{181608f6-8dfb-496d-b4b6-91073cbe14b3}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{a7d3dc6b-3c04-40ea-99b5-7bf759a32c17}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{1f4e2ec7-aad0-448c-8af5-99c7462cbe5d}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{d635c116-cd9d-4a5c-a6ce-828340406611}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{e12746f4-b41e-4cd2-a763-53fce2de876a}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{c6ee2454-5204-4a5b-b30f-23a2ebc7ac7c}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{60d670d4-dade-4a3b-9cef-90f38477d842}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{0fe46b41-6595-40ed-8658-db04d85a3ef7}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{82258cc2-6786-499f-9a4d-f181cbdc9e8c}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{cd7c7e94-67b5-4ce0-9c11-24de9d666040}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{be634439-94aa-47e3-be55-bbf8b846b870}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{3d5ef0b4-350d-4b09-953e-7125ef7d56b5}.xml" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{f747103f-b55e-40eb-a2b2-d116e2eb1215}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{ac3da5e2-319f-4143-a3bf-449b99a7d8d3}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{9f167cc7-d771-4315-b1ca-bc9f01789176}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{b93f43b9-970b-4bf3-aa2f-7178ea925ec4}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{dda59ccb-fe16-43db-b2b4-b9827a6800c1}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{7342dbcd-21e3-42d6-9570-05b2434f454c}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{22cd4805-9c84-4fbe-b147-1cb38bc772c1}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{0b6b24a3-7a8d-4310-af98-441f30d921e2}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{5246c620-5cea-44c4-8064-97335fcf13ee}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{574c1e21-b950-4d30-8077-3abe80143b43}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{31b7d544-5f6a-4f71-a202-1f96a77dc5f0}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{c866eac0-4fc7-434e-a02f-4cbfdce44bc9}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{d83709f2-eb60-48e5-aa56-ae96fdbb1d0c}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{1d55e99d-7c27-4817-99bc-f0364f966e45}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{01ed5bdf-6aef-47fa-b68b-256365eb3f32}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{a0881e56-3f34-4250-b6bf-e3ac7c1dd833}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{d500423c-2edc-4e9d-af0e-660909576d80}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{a1730a0d-0378-45cf-8a23-d6949556c709}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{86a55398-7a11-4013-a46f-c177c3ad8c01}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{e7eac36e-c3c3-4226-8556-4ba8fd68c7a4}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{d4426244-1da5-49fc-be6f-f1be996f383a}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{3cbaae95-9d45-4bdc-87b4-483cd59e460f}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{d83f3457-f68b-413e-8ca8-3cac0db1d51a}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{36ccab3f-71b5-4e40-9480-79c3f441c6d5}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{f54afb13-deee-42d7-b6f2-b25b712ddc9f}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{a5f99058-0afd-4bd3-9f4c-2994a4b90af9}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{9d00c5a5-32b0-4655-a4cf-0c18d1b493b1}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{729899eb-5056-4e3f-95fb-901d29c51faa}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{500f59da-d1ce-42aa-8e22-0cbfa4a3df24}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{db746ecb-24ac-46ef-b902-0e977a1ffecc}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Workspace.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{0616ea40-6725-4f7f-ab32-7689b9cb1b6d}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{8869a812-2fcb-4176-b6ea-3aacf4e55999}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{ee33943d-90c1-4eeb-84a6-82b406e6017f}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{37fc0216-135f-4b70-a869-db944ab53381}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{02e5ba5c-411b-489f-b00a-9ebbd1be3891}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{819aaa54-7091-4617-a0c9-8e604d40bc04}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{48e4d272-ede1-4fba-826e-eefb82684060}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{53fdfbe8-8f61-4b7d-8fef-2714154fb3b3}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{9898da50-14fc-4690-8d46-9ab72315f2a4}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{052d017f-109f-41de-9106-ba3b8ed9b91e}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{4f297e1d-ea81-489e-a90e-9491cb6b76c1}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{f8f733cc-0bb8-4526-9e26-3f78282839d6}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{b360d0cc-fbc2-4c85-b373-dcaf2c351feb}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{11ba2001-56ca-4b5c-920a-5bf15bb51612}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{65a35280-e1a7-42c3-bacf-1e1ab3dec947}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{efb5819f-f38b-4bc2-9106-66b9139686e7}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{e0c49bd8-d1e2-45a8-8787-5f05a0702bdf}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{f02f3d0e-0b03-4cd8-8827-129711919834}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{7a252a24-e7c2-42ea-be96-1cf86e872ec5}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{1ac4a09d-d2a9-4fe1-93ed-42fc3611a979}.xml" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{357a49cb-c822-4471-aae8-a7bfc5204296}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{3fb22358-50b3-4fbd-a96a-14201270aa5b}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{ddc5bf6f-58a3-4fc9-a742-9c0fc90996b2}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{e6d3687d-90a6-4b85-9fe5-3a6d0b098163}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{c2212ca7-f1c4-4173-a27c-46731257342d}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{97bd6c62-43c9-436b-91e4-24922c4c004c}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{96bd5b43-5b1d-4eb3-a43d-f12f51dee7ff}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\BankFolder\{bdd996f3-6905-47da-98f7-e15c282e958b}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{36c41c53-8164-47e5-bc31-0e46da292227}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{2eec983b-2c86-40b9-a468-3a57d9661b9e}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{4e33b40e-3e61-4023-a14a-2f09669eaf54}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{3c5e00cb-0e09-4832-9798-075489cd1341}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{1215f26d-1379-4ec2-81ea-691252cca62f}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{a7553bb7-7ae3-4a67-b6b3-ddf9637ebec5}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{6d893e0c-675d-4c46-87e1-3f2a3cac3184}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{3f9a23a9-831e-4b6f-b072-c62041882931}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{824d30c1-ccc6-4940-a86b-db8476af4a8b}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{0201f9ad-e883-4dd5-8704-0bcc502a5c70}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{ed2de7b6-f8d2-4b4f-8763-27207103c1e2}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{e34caf87-32a9-4e22-9970-15a757ec2036}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{26acd5f8-7039-46fb-8f93-955d3c8e2258}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{e48cb1fc-c444-4c8e-a25b-5e4babfb75d2}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{1fb1d51b-b985-4de3-a76e-7513b9f304a0}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{4e071dcc-36b6-4f7b-9cd9-fbedea6e9d2c}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{0fdc8a5b-9be9-4bdd-9f77-881ad9d19913}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{bb9f16c9-59d5-4148-88d6-a49d4f061108}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{23044b7a-efc7-49b3-99f0-8482a3f04248}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{314188ad-3270-42a5-8def-1af09702a087}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{8bb4f8c6-8792-4854-a0df-f334b744da8a}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{7436c058-084c-40b0-b8d2-9aa30a8839ca}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{827ab513-6afa-4f27-b4ed-69dc0a518d60}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{5dcfcd0f-2c58-49a7-bcea-d2bb0f597ef2}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{6501fa56-2159-4117-8f3d-66601a7c30ec}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{b9859fea-ddaa-40cd-ab82-60e90a3686ad}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{e5387dfa-1cc0-4331-92b0-a978d4dd623e}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{7c7b86c2-abea-4899-9468-833b6ce0d713}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{25e09089-ddf4-4d3d-baf4-ce94f309a5a4}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{db5abce2-021c-4649-a5f5-ad75e91f16d2}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{e0a74dd9-ac7a-4af7-8a35-6a94bcc85498}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{ea75bf40-16a2-4d0c-95cc-6eff5daa9541}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{e836e2cd-0f67-47e5-b531-96682f899398}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{21d53fc0-c8c0-4c10-b780-0c62f1e21a09}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{b3d295ba-34b4-4ad3-94cc-99179c6fd891}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{7d36fece-74f5-4337-ac3c-14cc4102e8ea}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{e4bdb4bb-438b-4e3d-bbcf-5eac30d2ac7a}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{fa8b32e4-a9f2-4704-a84f-1e55aaa93af6}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{c2caabed-ce35-480d-b7c1-690265bb7442}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{3e600d8f-a146-4ec5-9601-bee36cca3e51}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{83bd8937-bbb4-4500-b113-fbdf21ecdfb8}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{7e034b2b-59c6-43ad-90c8-9314d2e55f9a}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\SnapshotGroup\{233bbfc0-b1f7-4255-add4-48970cfe5fb1}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\SandboxFolder\{c5be6592-80c0-46b9-82cf-fe7cd0d10a96}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\ProfilerFolder\{8f724be6-9ad4-4b07-b30d-e94ebc640cda}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{c6636809-8c3f-47e0-bcef-77d8b84ef3b1}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{648a9cda-9d44-424a-ba77-9eb7bcc0568b}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{8cc8aaf3-f58d-4ead-9520-a8861049b625}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{fdac06cc-b38e-45a9-8915-cdccb82c1348}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{139983ea-1acf-46a0-8ef3-75e1b50a7979}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{c01c5b2c-c6db-4b8e-9618-151f56b5a0ca}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{622c90f4-6e19-4afc-87db-500da3e89dd2}.xml" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{f9577bb8-4e40-4350-9c4c-266e6f7cb96e}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{d58a74b5-b0b5-49e3-95c1-d047d96dcc22}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{3ec6fa3c-c9cd-4ad3-a007-e29d44a5c812}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{95db5295-622b-4480-a6bb-40e17dbdefca}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{a2f1ae39-2ed3-4a5f-b455-e88d25ac8a98}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{75252e08-4dcc-4907-bb53-d80c90dbcf4f}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{974d62ee-8011-44de-bbbb-a92688eb4c65}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{eef0d430-9160-42b4-ae8b-5ac9041cac86}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{e3490801-4665-40cc-9dcb-766013406d1d}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{473c90f2-0d65-4f7c-9d41-262c021c2538}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{26a3af60-7e26-4bd8-8897-216ab0d9a564}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{65d0e638-b3bf-4d69-b805-a14620372f0d}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{65e2479c-fbe6-41f6-9ad6-1d0f45236cde}.xml" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{d15b87da-90b6-4d35-a156-db15b51666db}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{e5c7aecb-e3b9-4fc6-991a-840677e7f14e}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{1ea0d6d6-c053-4dcb-bdfb-6a38bde9ed26}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{9c3ef0e3-b438-4199-9b11-8ff9f8566cd8}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{252c3508-6189-4405-b680-4530c049d6d6}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{046c04a9-5061-45c2-a81f-fe8d95e0a1d1}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{ecb0c3d6-a1ae-4bdf-8d31-2e5a3641dae1}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{9958fbf1-30b5-4237-a4a4-5b4743aeec2e}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{078447b4-7aec-4419-9cab-d8c32ecda730}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{efbe8bd5-4c6d-4ed8-9f23-0821c4c37383}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{af741be4-3801-4c00-9192-10d0166650bf}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{90de10d6-a865-4aa8-9a4c-0d9c012ca09e}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{b686f0c8-be5b-4cdd-bcdf-7278061cac17}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{93ebe614-4ee6-4b57-a269-18a5493c561e}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{badf9f48-8db1-4716-a6a2-1ef3e1764c29}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{801c265d-472d-4a35-87c8-17b48a403bad}.xml" />
+    <None Include="Assets\ColorModif.shader" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{06a21c76-61c4-4fa1-afc3-116ee6561d64}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{b1effab6-f919-4c9a-aa6f-7a426ab36a73}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{ce0e5717-def8-42a2-88c0-a749ad926e86}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{5618b6f4-f75b-4ed4-b11e-3575a8880e24}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{3b6fcd81-591b-4419-a4de-7311aaf98da5}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{2279d2cc-01e6-4238-ae2c-641397af6433}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{58443b0c-1eb9-4524-bf97-547eb27a982e}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\ParameterPresetFolder\{5e22d98b-6e46-433c-97b1-84e4d775ca82}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{678de46f-6cb4-404d-b8ff-3f37a0245e7b}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{95795e6b-0434-4da5-87c2-e5bb02783289}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Bank\{7a093748-721d-425e-9be3-a0b9f0a42170}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{e92763b6-342e-47f1-8071-53f1a97cfb07}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{82d2ba01-943d-43fe-b08a-c87782597109}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{3b0878aa-3dfc-44b8-8d00-68af241ce724}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{a8958fa0-bf6a-43ce-ab8a-cdb6c3c8297d}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{bfbc0974-ee35-4efa-89b2-60580f86e6a5}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{58c94a80-10f7-47c8-bd48-07a43ee9cc8d}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{5527a2c1-5130-4d6a-9b1f-2f2171cf1b8d}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{0ba32195-6748-4dcb-8a92-e1c1888e7906}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{b1e87fc0-cd4d-4a28-bb02-cd2dba81e2e0}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{b83e49d8-b137-4ab3-8fc7-d7af4c99d889}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{036b3b35-7c52-4f31-860b-8d024634b68a}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{442d8ec7-327e-4fec-b139-8d329771535f}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{3ec0e711-8dec-4178-90db-4c7031763a1b}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{e7fdcb6d-bb1c-4dfd-a236-0d96c574de80}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{cb2e27e2-70b1-4dec-a27e-d79a06d6e5ee}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{d9e82542-fea6-4021-a727-6f36a90ee445}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{3d1fd80a-924c-4c5c-83b2-9ea4d41d7444}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{9849f565-28b7-426f-b6ee-0eb77867dd19}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{b54407f3-2418-4e7e-9bf4-796bb59fd3c3}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{cfa3a541-ef29-4e56-bea9-979519bc3f5f}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{7b5b5c35-21d0-4107-aa28-197097aaee4a}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{c66b70db-03c1-4f09-b34c-5c2dfa150d38}.xml" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{54fcd8c9-c65b-475c-a27e-d27134eaa5da}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{c7dedf17-be32-4ca8-8115-d515d907e448}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{37b6068c-7bb3-410b-b58b-b8adc1427822}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{c2453186-b99c-4540-8001-7e930a14028a}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{2daf427b-bb2a-44b9-b292-c8f363016b44}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{2833a290-5542-4263-8ab9-d0407a6df93c}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{00dee6b8-21ed-4e46-91aa-8e41f6e1928b}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{618c5858-a402-46e6-98bd-916c387c8942}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{ac998081-29cb-41b2-8444-0039e2abdff0}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{45264d31-e73a-4f8f-8f8e-9b542452e37c}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{5c728be0-2631-40e0-9006-555ce087eba7}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{b9c6dfba-bc6c-4a1d-a94a-9d171f5ff6e2}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{513468f0-6402-4254-8387-a0fcea11e698}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{f66c26b7-c8d0-49f3-b2c4-ccb1827fe48f}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{5d9795db-be8c-40dd-a215-fa0f8d244e1f}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{a137826a-7806-42c1-9bb0-afff3add1eae}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{d6b09b3c-328d-4564-a3ec-50df538f0f38}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{eb24174e-6321-40cc-a1b6-ce513a144bb2}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{843d5fe4-9a4f-4881-8d9f-a47c230038ca}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{b17f7baf-eebe-4b2f-8612-fcb0be85f5e7}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{d6cdda8b-adb2-49bc-ab9b-c1270f359a9f}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{3230b935-bae6-4867-a9d1-27e01d027260}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{96b38b0a-9087-4133-acf6-8f47345d50d7}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{bd82a073-a8cc-46be-a952-94aec2782980}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{28478dcc-df45-4ea4-a47b-60f297102fb2}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{7262c0e8-4ff0-4291-a53e-3c3022d04d71}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{52d459dc-2056-44ab-bd7b-e912284b3b24}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{441d9dd9-8201-4ea2-b48e-0ce3765ea04b}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{21940610-27f1-4978-abfd-85db9fdc7d23}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{3f02df3f-4abd-4353-98ba-77c6f395a08d}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{387ad1b8-6175-4b51-b157-237c876c160b}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{7fedfe4e-267c-425f-ac73-d228e27dd961}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{25afe02b-ca97-467a-aef2-9e8647ac2fd5}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{316375ae-16a2-4965-b9da-cbff0d4e506b}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{afdb9064-c6c7-4aee-9ce1-7f4af7ab0d2e}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{8fc4c462-2e0c-4104-af68-bc70fa0a9cae}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{63d1c551-e0ea-426e-a596-ae8c56cc092f}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{b11f037a-fb4c-45ea-ada2-e9954484982c}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{d011b39d-8532-4571-aacf-237e8ba56325}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{320204cc-8102-445b-a34e-456038966a23}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{b502fc15-06ab-439c-b08d-8684e9b087eb}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{2022a03e-93a4-4c47-b2fa-a0a2b8ce09c7}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{62dca4af-d60e-4252-96b8-2ad831f2fbf4}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{56581b46-5193-4de9-bb71-db7c5978875f}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{559ec734-e188-4342-b1f2-4621e2c35fbb}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{ab053431-2777-46a3-910d-c13d4f72cd7e}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{f7d89818-65cb-448a-a30d-362276994dce}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{14eae3f6-1380-4923-a33a-1c35e51fe357}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{9623771d-7578-404b-abe9-a9baa28c595c}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{74448940-8e7f-44f9-9fd1-6f62c34a19d8}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{5fdd1678-cbeb-4b4c-a932-7d482ec01e62}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{561bf5a0-7a55-440a-9b03-96fd5dac881e}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{422b4191-3513-4043-bb43-2a0ad503637c}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{20b2aa91-df80-47b2-bd76-d4160cb38af4}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{e41aea8b-a283-4551-9654-ae528ace1e22}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{dda067c2-b2a3-4357-bbe4-3049cda95ab4}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{ea91ffb4-7d72-4b39-b625-3efc868065c5}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{1af21e3a-ecdc-4af8-ba53-bf9235bafe32}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{dbcf9b49-4e53-496b-a637-211bb57fe39a}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{73df25c3-12ba-4c75-9a56-0aa7fb15bf03}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{22315418-538b-4517-b9bf-c0b3eceb903a}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{c2a60abb-9528-4b48-a82c-b8dafc52826f}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{dbed187f-dac6-4efd-b6d5-4024360515e8}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{ecf1c193-5436-4a39-86b9-4385c5805558}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{08f4624b-8cab-4879-9788-72c76ebac9aa}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{d6de3481-f663-445d-9ef1-18439c2df828}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{57f95495-5dbe-40ca-95dc-c85383857c37}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{a2dfa039-c305-4581-8e00-e8b190dfd3e8}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{23ba89d3-b6d8-4007-b7e4-e7f577f1180c}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{f2f3ff50-04dd-4e35-8780-2ff9ff0ce4d6}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{00b6d87a-b0e3-4e50-80ac-f91728de4945}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{50dac751-8450-4d5b-947b-4e3a77d94d04}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{81a89303-b99b-468d-ba2d-0e0b6200bcc1}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{931a1d09-cb4a-4413-9038-2594d8fdb0dd}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{81d5fba4-cf72-409f-a3f8-2ab2c8325f6b}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{8f2bf8ac-2d3d-406f-8ca8-0171e6796f3c}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{8fe4489d-78b7-424b-93fa-a429104a96ef}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{978a575f-cb29-494f-97c6-de6042df71aa}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{16291074-d314-444f-8e78-c276d1a554b6}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{7415a319-37bd-4de4-8eb9-8e3bb68e39f6}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{ed1dbe84-cd88-47ec-a871-cbcbea51e544}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{8317e012-7066-4268-a216-49dd90f21472}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{0ad1bc61-fe10-4454-8714-6d6596a106c1}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{1e02e9ae-ca6c-421e-8b1d-2df216eaa9c7}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{4b5fb498-16a7-420d-ae8b-fbb9ad13d87f}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{e41a2dbe-2331-4dcb-87a0-0c3351ced0c4}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{a8e31420-d0b7-4820-aab1-b15313a38e6b}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{1cace856-c583-4c0f-a245-e55d4f6e81c9}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Return\{c54c722a-1ab0-406c-848e-7f7becc88278}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{6fbd5b96-c94e-4e9e-a7ae-06c70bbe169f}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{91c82669-fe48-49ba-aafa-2a9f94ea4107}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{1ecfbb65-6535-4704-8fa6-7d38dfc09044}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{5609427a-9b6a-4760-8f44-e6e61104ad2c}.xml" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{b12270f6-2a0c-496b-9a27-77646e9cfdfe}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{d56aa1e8-d610-4170-af38-1014af428bea}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{43b54dda-b862-445e-a391-a5b72dd2c3c2}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{101c68d5-caeb-4558-b828-637b9e783f7c}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{59553fc4-374d-4ba1-934e-16df5f0f9f41}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{5ec0d5c6-f3d1-4cf2-9ed8-4d6ab599a588}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{5dbff182-279f-421f-851b-c2de2aef9be8}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{f39793e7-7d49-4808-94da-145e59c96e2b}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{99a35963-07e7-4a3b-a240-63c73c8ded44}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{4b910ded-0ad3-4741-9d62-537157bfda6d}.xml" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{a40955fe-2e25-4a0e-83d4-bc9fbdcc6545}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{36461563-6966-4159-8870-a12714e1291e}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{47600eb6-7899-4bad-b871-fdae5e1eedef}.xml" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{055ff400-3eb4-4142-bcbe-90e0642446ce}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{c4c385fd-4545-409b-a09a-c35a8fe634b4}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{bc032181-e0b7-458c-87f7-f6e10dd50780}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{28874b9f-006a-49bc-a5f3-d7690e703c52}.xml" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{6a3f083e-7a5f-4f99-833b-55d6ac50a928}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\EncodingSetting\{62336e89-2fc0-47a5-a3f2-81a7cf54a829}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{be50f56e-1903-4689-9f36-19f83aabdc97}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{f6325c0b-6dde-42ad-97ec-d4a45773477a}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{4f7695b1-9533-47d2-815b-17b12a0fdcce}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{d5fb09a4-8335-4e8b-84ad-7432029010e2}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{492958c0-a4c1-4e21-b9f1-c44099b8131c}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{424d4394-cf1a-44b3-97fa-29219d21686c}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{396b9a6a-7a2b-4c0f-b09a-7f4f93ae18cc}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{c5deb727-96ca-46cd-85f3-70392a594252}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{b0c9ddf0-3ed5-41a9-8351-ec2f6bd3d81c}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{b0178cbb-92b0-4bde-a239-6ca69cffead1}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{eba8b0be-8de7-467d-8079-53f2c8fc5f01}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{b9c96333-5195-4b21-94bf-ed7472210e4a}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{da00975f-d3d5-4303-9909-06e35d3ea063}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{f16579f1-5b23-4b3d-9d18-43709c4bb954}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{e9035cd7-d9de-45eb-b5db-5d0c3b39d259}.xml" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{a9a59bde-fa30-4b1e-a5ff-d3fcc999af56}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{bbe94d12-32f9-47a3-864e-228619c867ef}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{6b7b6bb6-8b38-497b-9b45-7c36ae916143}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{f82b6c50-e062-4ae8-9b52-bffee168e63b}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{6b6d8a35-9abe-45db-928a-fce34c5ab19d}.xml" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{22832bd3-7fdd-476f-8e68-eec5c8e7d7c0}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{225ad772-ea82-46c2-97c3-57e7969363a2}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{021358f2-e435-4a8a-90b5-d8aee6ad2080}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{690cb8a9-6aa1-4a2d-a04b-37c62c283038}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{2b697681-c317-4f6f-a7a2-90de3ee474d4}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Asset\{1bcb8a5c-8cfe-480f-a43d-52b32a3633d2}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{e5a11fad-331e-4a10-8645-355dea1ac9a6}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{1604fb88-b21b-488e-b8c1-5714733249f0}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{625706d2-f7ca-47ee-a4d7-648aaa473f95}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{1b7c4cee-4cfe-4d84-8e31-c09dc08f68f1}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{8f53a7a7-3d5c-4e76-b158-4a6588d71327}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{44b05f49-9178-493f-be95-148c92326a20}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{c0320f87-2f77-4aec-bfdc-e74462d36478}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{2935406b-0f17-4b35-b80d-4077c88a047c}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{063ebf04-0077-4942-b8e0-a120d36a34b5}.xml" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{547bb6b8-5cbb-4abb-991a-8d778dc5bb42}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{d33a85af-6c9c-444f-8b06-87b93e84db48}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{c1e55d75-c809-4382-a8c9-2f39916be2d9}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{b1e5199a-cdb4-480e-a409-5773d2a7a4cc}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{50dec00d-872a-42dd-8cdf-ef8a8adcd86e}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{5f910249-a806-48c7-a8cc-c490e6907703}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{6ab02862-80c9-4764-82ff-29188e5036e3}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{4a0998bb-f8c2-47ed-87c4-4083505d7749}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{855bdd51-0b6e-4d7c-9825-4ba98acb2e22}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{31a468bf-8e73-4c91-acfa-8699801af9cf}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{8fbdc0a7-acac-433a-abe9-67c409ac0d3b}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{fb11d8b5-98e9-4544-a87a-7e9be2692326}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{9b265782-620f-4c19-a733-8009bef80a7e}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{6af765ec-d757-43c6-a8cc-1b8b549471cb}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{838a0160-a045-4387-a32d-b93701e3eb2c}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{63ff3b86-203b-47a3-a0ae-06b4ec8d8492}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{677c1b77-ce53-46d0-b6fa-5fd7f2151a82}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{4ade52c1-89fb-4178-992a-1258b1631b05}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{8661a1d5-cda0-4628-8ea3-a1a5c734ebc1}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{80426e2f-3fdb-4ac8-8bbf-839536201148}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{1299a54e-d89c-4b06-8fa5-da571727c2ed}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{8ba85e57-0c99-4c34-a62f-5f3fa1795a22}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{85e8a3f0-3318-4468-8a14-e20634b4f16b}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{ca5857f0-6c1d-4d11-af4d-2be540eaee42}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{e77ca2cc-eef3-41d9-9400-f7ff20bdcb86}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{ff0d0d63-b0f4-456a-9e88-3810f2a1e3ba}.xml" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{1674daa7-c6cc-4946-bdd4-2bf11e6d9bff}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{4ab4deb4-6377-41e0-84d0-b78a53fe6e43}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{e7e67182-3f6f-4050-ac48-04bebab01fa2}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{bc49232f-efa4-4747-afdd-9330a40b74df}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{4523d904-8d8f-484b-a47c-218969148dfa}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{52009062-7444-483e-b0f9-f0d01803b485}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{f334173e-1482-4e77-bc16-c89e27708c37}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{9934aa8f-846d-4a3c-831b-586e0faaab3f}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{a9317a13-b713-41f7-b22f-58b2930d6946}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{c9704145-3130-4664-b6d9-3bd0e8f2c0ba}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{2558dc88-8f05-4ee4-9d2a-4e5530c128a3}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{d0f58d2b-cc03-464b-b371-e767dbc80ef3}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{305e9e52-ab63-4806-9e5d-e092465da27d}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{4ab02227-0ce9-4d1a-a676-400e3babf65a}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{1308c146-d603-4f17-a380-fea79ab6290f}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{19e75c94-3759-4be4-a79e-516ea9e5501e}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{d68d8ad6-c795-4ac8-b434-1b4aa7af4f5d}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{62836437-c03d-4615-9c24-388ac03d0f83}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{a7cb728e-5576-4e1a-914a-92435a10b755}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{b26bc009-e038-42b4-a2f8-6a7a788fac06}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{0c07c682-bd3a-47f8-bdaa-ef66c5636f86}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{eb37fb62-c9c7-4121-a5af-fc27769b4efe}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Tags.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{169ac760-c464-4d5b-bcde-26b6af232dd6}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{23587e9e-abbc-41ef-af70-42d416adfb57}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{d6bf7419-a563-48a3-b95b-766f6a97ca78}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{92c3b492-ed8f-4577-99e0-6884c8167f9a}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{42276bf6-dff4-4ff7-ba57-c0a56c3d84aa}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{3a38c97d-f6e6-4718-addc-5a65b3223d31}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{6509c577-28ce-4641-b78b-0dc37084ba6b}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{4a7bd92c-a46f-4193-81d7-c72c46bade48}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{744298ae-046f-4b9f-b421-f9219ad44981}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{740cc6db-cdc6-4927-b52b-43835927ec26}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{d0344652-fc3c-437a-b749-e7992d279e75}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{437d7dff-4e08-466c-aae8-d8055be1e685}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{3846dd73-7d4a-4f17-ab5e-d6518c7f3f96}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{b2353cdf-4d24-4ddf-bbf8-f50ece0c6c72}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{04e0bff3-f206-40aa-bf2e-577eadd6d50b}.xml" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{973d973f-97dc-4d50-b8bb-4964b83f4c87}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{2d50b0f8-905e-47e9-bd0d-a0741cc19997}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{80b81ce1-0f71-4d56-9db3-7c52783361eb}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{b0b9a829-3570-4268-a900-405642ffff43}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\EffectPresetFolder\{0b5dd615-9d95-45d9-9143-8fbe6ead79a7}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{0a610a22-c769-495c-844e-5526237690f8}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{9ba8caa5-3365-4256-b193-dadaa1c95c70}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{ce8a9dfc-2627-473d-b4e1-13c7398064f9}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{defac2d8-c95d-4662-86b2-ec1465e5b56f}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{62e7e022-e6f6-442f-9140-646ea99a0560}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{22878306-af4c-468e-8da0-2427a6de314a}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{4d09228d-80ec-4202-b151-27125157f52e}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{ca91c527-16f9-4a55-b5a3-965f2ab2089a}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{df82a972-a10b-498b-a720-f4446a450d0b}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{5dae9d3b-aa2c-4e07-a3d2-403abb73db88}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{2ed2bdc5-a310-4187-96a0-3256bc18a052}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{df4e5d01-812d-4127-86e6-70f6dbdb929a}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{6b799b1e-79c7-4c3c-95df-dd52bf730a11}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{2942a92e-e091-4133-9e6b-2fbc62cfcdc0}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{5a9fa55a-7478-4121-9508-9ccc4b4d8df4}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{ca12611b-632b-4bd0-87f1-cc26e7a1d001}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{2fe6603d-cd7d-44b7-9cfa-0b9e1a0832f6}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{2ac7d0a8-4c36-45d3-832f-6d8cbdfa9659}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{a7b1e4b6-a555-454e-a268-3aae5332dc14}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{2f6149f2-c227-44f1-8652-cab544fc889e}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{bf4eb606-d234-4058-885c-16300d273dd9}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{19ff34fa-7dd8-4411-99ea-54c8a0de231c}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{e60c8fc9-c8e3-4ffa-8d0f-55c2ba815fe2}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{586f9b39-9c23-4419-99cc-df1cc3cb053a}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{963fb216-c692-4c78-83b4-d1cbc4d1b5b8}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{2a7f787b-a54e-47ec-b207-24ef0b2d838b}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{ae63def6-59e1-4859-98b3-b61b24746b63}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{4a12e861-ffe0-4b23-aba6-994d6678ec7a}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{1b53d7d0-ee8b-4c44-b438-9a68f6ab1fcb}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{c1b4b482-392e-4756-93f5-70b5d39869ad}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{756cd9b0-1543-4e7e-9944-1bbdf9ffd3e8}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{2b6d4622-b3f6-44a4-b7bc-3ae8c5d9c283}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{ce9ca889-86a4-485d-9ebc-6e792b2ebd14}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{a0c87747-2042-40cf-aeae-9f02c765ff13}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{8d754ded-5e1e-44d7-b880-371da73541a6}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{f7ed992e-d612-4003-8423-333f337d6b5e}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{e871ac6e-84dd-4bea-a4e0-49c6370823f4}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{2d3b39d8-cde0-47bc-a34a-fdc3adeb0c31}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{3b081441-4774-4078-8c88-a7c023721d09}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{43970b79-c4ec-496a-9e9d-6fa6306739b8}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{0347bc7d-e4ff-4e51-aad3-a28e1b41fdf2}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{6e62963f-2c8d-4a60-9d6d-7e8edf754b6c}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{1c626607-cac4-4a16-858e-fe2e2b599749}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{a7aad9c8-7ba7-4ec8-92fe-a3528f2b93e6}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{9180307a-00bd-4891-8391-c31bbefbe2a7}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{f2ca2c38-cdd6-4d93-83fc-64dbc4112212}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{b1592330-01cd-4d6a-bae7-d902ba9b2935}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{75130bff-11a3-49c5-8f78-13af647a78b5}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{e39c8ee9-1973-4707-b3fd-249e39daec93}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{d94177ce-b774-4452-ab04-73a870ec5ad3}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{568f369b-8de6-45f3-8e81-50c2327bff51}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{09888b5a-6327-4a75-87fd-5f50e510667e}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{a47e234c-654f-41a3-9c49-e644deb6f354}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{6f17bda1-a991-4309-93dd-ed480c9284bd}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{9c3a5dbb-a4e9-4f1f-9ff1-ae483ce2edd0}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{7feab475-ba18-486c-b9b7-f56f43d57428}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{56e4156f-a6ab-4a69-8d4e-fd013fc72187}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{62f04768-474f-44ba-9895-12558b8058a1}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{a68b41e4-f6aa-4dd3-8caf-dd3344ce83e1}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{d4bbfb7d-e717-427b-9815-2018ba9f9696}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{6341fdf3-1bb8-4b98-8b02-5b3b5c71a9a2}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{42033e1b-5310-4ecc-8840-16d374a4cf5a}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{2760a6fa-5336-4ad5-9652-253727ad948e}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{c4cd04e2-81ad-43cb-930a-56746cd55ada}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{daa243c6-a1c5-4a18-a561-e755ce7c76cc}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{5689e535-b490-45c3-b594-ac3de8d6223c}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{1c8f141d-f3bd-4d29-b036-4943da93b109}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{aaa93326-5587-466c-b594-0b7b3faf41b5}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{21846ea0-da9d-4666-9350-dba637eeca29}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{ca01c2c8-b3db-478f-bdb1-b51d1001b239}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{9a54432d-a1de-443f-a132-fd59d51c28ea}.xml" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{2f6da2e5-fb85-49c7-91da-6415cbf805e6}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{2fd253fc-5c20-445c-a37f-44cbe9a60261}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{4859c9b2-0133-48a6-a034-c6ad67eca9ba}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{ddbc5941-c929-41ad-bfae-faafd0ae1048}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{79e65dcc-f678-485e-ae7c-9822cff14414}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{4ab9e68b-5a9f-49ca-8148-4976447be901}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{c2393b65-2014-488f-8b97-819a9397302a}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{02ea6570-cf76-4f46-9746-cd7f870779a4}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{aabd2762-5ab6-4f96-86b8-85d31af2f61a}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{f9442b41-7cbd-4141-bccd-54bf1c72c5eb}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{bcc1929f-a489-475d-ad8d-db5f2093e3cd}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{93482483-d617-4403-a84a-165fc548b943}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\EventFolder\{3996f861-ebf1-4f23-ac6a-c24b010334ad}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{ec00fb6e-2a81-4ea1-8875-8b4cace8697d}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{fce343c8-33a4-47df-b21e-a612e51609b9}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{200331ba-1d19-41da-b279-25059d88e09b}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{82a5a90e-5e40-4c95-a083-0328f647c33d}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{2200edbe-3985-4375-9464-cea43d8893cd}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{2febcdb3-61f0-4508-a195-b1131eb173fd}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{86fdc1cc-30a2-486b-b521-384f62f8daa0}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{dd0bccf9-55ae-4a72-81b6-8bfd3fc0e4cb}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{3bdef759-6bb5-418f-a845-49e92f5b338b}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{70540c9b-4e3c-435a-abca-0ad03005247c}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{17058481-c431-4e84-91be-8bbe32aaeddd}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{38eff9ec-e766-4112-9213-0061d1e804d8}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{bfb1610e-e9ad-4751-9d49-6864fb7aaee7}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{fc159c22-328a-42cc-a3bf-11c84a467c68}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{0d5f7f74-8c46-4408-9d0a-d4ff80efb350}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{4cd998ac-b6b2-47c0-b01a-28899567a7ac}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{464b09b1-bfb2-452a-8a1f-c1405909d5ae}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{a75e1a7c-e281-43b3-b0cb-7533d5d75c72}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{5c09c249-2c96-4a3e-9365-098ad9337368}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{4943cdce-6e0b-49bf-9828-c90bb0ad50f7}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{912e0dc1-e18d-4954-bd51-d501650aac19}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{96ad6f7d-03f7-48ea-9ce8-be386940833a}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{08fcc0b7-2edf-4e0d-8b4b-208de9d8b49a}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{82cc2485-87f0-476e-88b8-793d9bab5514}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{e1b375d0-5d65-4161-8f57-fa6b10c8e4a7}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{229a69e7-7302-45c6-b020-649409d3989c}.xml" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{3e478e66-ccbe-41bb-97b7-fef86d9f8e55}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{b5d358e9-78d1-442f-8a54-01ef7e973d6c}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{4fe2631b-84b2-4b71-8bbb-cd7bb82c6786}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{09d564f2-5f2c-40fd-933c-da060f232bc8}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{f208c5fb-fabc-423c-a31e-97c97f6af65d}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{8baed46e-bc2f-4e43-a834-cb9408349e71}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{97c52339-8249-42c2-8e60-cea17e580044}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Mixer.xml" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{a0902953-d5d2-4e80-8ca6-c0eb368fd3fd}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{3d8b4a3b-0705-40e2-9243-cf61bf56833e}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{2430abdb-3ba8-4f4d-91a1-addcae691609}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{7840df96-2a89-43b8-a668-ef3b33b2ab1c}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\EventFolder\{83786e3d-77fe-4fe7-843a-f865314bf209}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{f3a9f772-2505-4755-9a89-f3532996257b}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{6c16e40c-e72b-4073-9ddf-2d97d81317b0}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{4596a722-ecb1-42d7-9d91-df3fa176e976}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{640cafac-4099-4a7a-82f3-c81279ee8fcc}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{b241a3e5-7512-49f1-aeac-70cfc89d96b9}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{17ce30b3-7737-4d83-ba8f-cd3bcf78f4c6}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{848f1967-a8d4-496c-b32e-977354fa63f3}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{5feee8e3-c414-4e1f-b844-c833897d3456}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{5ad6edcd-85dc-46b4-9066-752853c014b6}.xml" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{fb747783-bd6b-4eb5-80fb-dfafbd8a760d}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{bb0d1bb1-3769-4e2d-978c-913771f252c1}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{3a2989f4-4565-4036-a4b8-80764c2511a0}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Platform\{4ed0f353-f378-4687-a1bb-22906c6235f2}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{99c0bea9-fbb2-4fc6-9f21-3dc72a7723e9}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{446ec990-00d9-44b6-82b4-9f1fb59b490c}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{3eefea30-fefd-48b3-bdd8-a9d80330238b}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{69fb61d2-f245-4c52-b124-dc97201f4dc1}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{e45a0d82-40ef-488a-8569-a6440f0982e1}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{26076f68-0de1-4466-bd01-b6b37fe55c7d}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{a1be9170-5703-4784-876b-d6b1c2d422b4}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{b11aca2c-4699-49bc-8370-57214449c79d}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{3470f7ed-66d0-403e-ab8f-42724595dd69}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{f916d23b-ba3c-4d9c-903f-14a63ff444d0}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{8feb4f0e-fabd-4d6c-8668-d45e0a96e5ad}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{e66bf768-43dd-4173-8d84-e6e5cb0c452f}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{3c3ef230-5391-4289-ae03-986d7caf01f1}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{7c338a1c-c2f2-48bd-8ecc-8ac39fa51f00}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{96fc707a-9315-43ea-bcc9-cd33741e1b62}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{a456f466-6383-4bf2-81f7-6e27e3a1e04d}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{5d8bdcda-6039-456a-91a0-a1d66a078522}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{06b032de-9eea-44b9-91f7-18bf08b340a2}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{e28bb0a0-2a25-4313-b0bb-8f2140ae5e7c}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{844c9b2f-2ada-484c-b435-42c7b2d8ef16}.xml" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{90ab1c88-f4ca-48e5-94f0-afa69f3638dd}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{985d30fc-252a-4d94-87c7-b0a793e3aca4}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{1377b5c2-c3cb-44c0-bd3a-39f2b0e82b48}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{75125064-d8ee-4615-93ea-8c7d3dabdf92}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{ca2516f5-c2b5-499a-ae23-c7d7e28a1ef4}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{f35ecb8f-de21-43ad-bbd6-cfbf2fbe21ef}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{e27c3dcf-cef2-491c-8828-6a8bd3b7d620}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{0ea93d5c-59fc-4806-a57f-76b0bfcd2ecf}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{5f042c84-31d3-452a-95d9-c73bc04847b5}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{cc8f45a6-7b15-4f14-a299-e62f603c1890}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{08fc85c7-b3fa-4994-a287-fe3f08819e19}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{0a073026-020a-4955-82d1-ecbc1b5f53ac}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{d5249147-4ef9-4d90-8212-f7d1e2baddaf}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{5502510b-783e-4b53-b9aa-df17a2bc6542}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{5d05193d-9ecd-41f5-bf0d-4e18e669e85d}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{3647dcf5-6a97-47eb-aad6-de74397aa21d}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{254525c6-9937-4c4f-82ba-6801052d0934}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{a657042f-e8c7-4c9f-8390-f5ee6a6d7948}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{3df792b8-6301-48ef-a344-853dc09f964a}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{8d2c9285-fd67-4076-a9c8-4c29bdf1aef0}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{9dc87d85-c1b0-4940-bc00-f9cf0b7ee7e2}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{2fcfdeec-c2cf-4785-9ff6-00ae315d4881}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{87cf0ffe-ffc7-4a87-8d61-559834eee3d5}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{4b3e9aa8-571f-4d4f-97a4-f72761e8a355}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Master.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\EventFolder\{95520a2c-7de1-444e-ad72-b2b817be68f3}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{ebc78553-c6a7-48d5-bad4-10d11c6de2dd}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{78de2657-2292-4282-94eb-066149aeadb6}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{a8c4db57-a10e-4777-87ee-b6449386687a}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{57c6dfc2-eef8-48c8-ac3e-419ebc2cd81a}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{9d9a34fa-1752-48f3-b1af-5298a3ebef68}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{06519989-4713-40ce-b54b-e701d6d4a7b6}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{5a1e7fcf-75c4-41e0-b7d3-0f85c7a89556}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{54a4381b-2e4e-4abb-8790-e1f604b7934c}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{97f1e57d-e173-492c-b11f-a0036dbd5426}.xml" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{48f30fe0-a58d-4555-a33e-832d531f632d}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{ca7f4ffb-55d7-4b76-9971-d791012af2f0}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{0c1348ec-66df-4f94-9300-3bc662474f64}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{4242d730-c0d8-4dcb-9e90-77d956cbfc11}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{4002d729-7ed0-480a-817f-772c1dece6c8}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{a2d543e2-2b40-439c-87a1-3014a74bd2e9}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{3e7a8b47-998d-4612-be2b-1958087f2fce}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{d2083b05-b487-44e0-bb31-342a3e4569c2}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{98517d55-6980-4803-887f-171a1c01106b}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\Event\{3bf5a364-64dd-4e91-8a49-c61491e5ad71}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{6327caf9-f3e1-4a5b-b143-bd9e5d126480}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{11c25688-00b0-4938-8064-e4756537969e}.xml" />
+    <None Include="Assets\fmod\leMachiniste\Metadata\AudioFile\{cfdf284f-866b-4d1e-9a62-07364308816d}.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.AndroidJNIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterRendererModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.DSPGraphModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.GIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.ProfilerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubsystemsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsNativeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsNativeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityCurlModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VirtualTexturingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.VirtualTexturingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.CoreModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.GraphViewModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.GraphViewModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.PackageManagerUIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.PackageManagerUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SceneTemplateModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneTemplateModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsSamplesModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsSamplesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIServiceModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIServiceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UnityConnectModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.AppContext.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Collections.NonGeneric.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Collections.Specialized.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ComponentModel.EventBasedAsync.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ComponentModel.TypeConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Data.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.Debug.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.FileVersionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.StackTrace.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.TraceSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tracing">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Diagnostics.Tracing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Drawing.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Dynamic.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Globalization.Calendars.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Globalization.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.Compression.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.FileSystem.DriveInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.FileSystem.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.FileSystem.Watcher.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.IsolatedStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.MemoryMappedFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.Pipes.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.UnmanagedMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Linq.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Linq.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Linq.Queryable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.NameResolution.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.NetworkInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Ping.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Requests.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.WebHeaderCollection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.WebSockets.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.WebSockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Reflection.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Reflection.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Resources.Reader.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Resources.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Resources.Writer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Handles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Serialization.Formatters.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Serialization.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Serialization.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Serialization.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Claims.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Cryptography.Csp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Principal.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.SecureString.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Text.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Text.Encoding.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Overlapped.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Tasks.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.ThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Timer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XmlDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XmlSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XPath.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.ComponentModel.Composition.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.IO.Compression.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.ServiceModel.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Transactions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Serialization">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEngineBridge.001">
+      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.PixelPerfect">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="PsdPlugin">
+      <HintPath>Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.IK.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Psdimporter.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Path.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Path.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridge.001">
+      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.IK.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Triangle.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.PixelPerfect.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.SpriteShape.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.SpriteShape.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="FMODUnityResonanceEditor.csproj">
+      <Project>{979D7085-5B27-6875-7987-7FBB4CC0726C}</Project>
+      <Name>FMODUnityResonanceEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="FMODUnity.csproj">
+      <Project>{DB2469A4-6EF0-D446-6042-6F8758ADE98C}</Project>
+      <Name>FMODUnity</Name>
+    </ProjectReference>
+    <ProjectReference Include="FMODUnityEditor.csproj">
+      <Project>{D73E3BEF-440D-F44A-BD76-DE06E9727253}</Project>
+      <Name>FMODUnityEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="FMODUnityResonance.csproj">
+      <Project>{E8D116C0-868E-2AD8-B575-C54102F98B04}</Project>
+      <Name>FMODUnityResonance</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
